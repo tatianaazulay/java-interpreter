@@ -14,7 +14,7 @@ Language description:<br/>
 *only operators that give integer values are included.<br/>
 Program:<br/>
 Assignment * <br/>
-Assignment:  Identifier = Exp;<br/>
+Assignment:  Identifier = Exp<br/>
 Exp:   Exp + Term | Exp - Term | Term<br/>
 Term:  Term * Fact  | Fact<br/>
 Fact:  ( Exp ) | - Fact | + Fact | Literal | Identifier<br/>
