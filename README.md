@@ -10,8 +10,8 @@
 
 
 Language description:
-*it consists of assignments and each variable is the integer type. 
-*only operators that give integer values are included. 
+*it consists of assignments and each variable is the integer type.\n
+*only operators that give integer values are included.\n
 Program:
 Assignment*
 Assignment:  Identifier = Exp;
