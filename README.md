@@ -13,7 +13,7 @@ Language description:<br/>
 *it consists of assignments and each variable is the integer type.<br/>
 *only operators that give integer values are included.<br/>
 Program:<br/>
-Assignment*<br/>
+Assignment * <br/>
 Assignment:  Identifier = Exp;<br/>
 Exp:   Exp + Term | Exp - Term | Term<br/>
 Term:  Term * Fact  | Fact<br/>
