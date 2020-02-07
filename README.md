@@ -10,39 +10,39 @@
 
 
 Language description:
-*it consists of assignments and each variable is the integer type.\n
-*only operators that give integer values are included.\n
-Program:
-Assignment*
-Assignment:  Identifier = Exp;
-Exp:   Exp + Term | Exp - Term | Term
-Term:  Term * Fact  | Fact
-Fact:  ( Exp ) | - Fact | + Fact | Literal | Identifier
-Identifier:  Letter [Letter | Digit]*
-Letter:  a|...|z|A|...|Z|_
-Literal:  0 | NonZeroDigit Digit*		
-NonZeroDigit:  1|...|9
-Digit:  0|1|...|9
+*it consists of assignments and each variable is the integer type.<br/>
+*only operators that give integer values are included.<br/>
+Program:<br/>
+Assignment*<br/>
+Assignment:  Identifier = Exp;<br/>
+Exp:   Exp + Term | Exp - Term | Term<br/>
+Term:  Term * Fact  | Fact<br/>
+Fact:  ( Exp ) | - Fact | + Fact | Literal | Identifier<br/>
+Identifier:  Letter [Letter | Digit]*<br/>
+Letter:  a|...|z|A|...|Z|_<br/>
+Literal:  0 | NonZeroDigit Digit*		<br/>
+NonZeroDigit:  1|...|9<br/>
+Digit:  0|1|...|9<br/>
 
-Sample input and output:
-Input:
-x = 1;
-y = 2;
-z = ---(x+y)*(x+-y);
-a = 4;
-b_c= a*6-4;
-t=a+1;
-u=5;
-r=4-(-4);
-d=(7-a)+1;
+Sample input and output:<br/>
+Input:<br/>
+x = 1;<br/>
+y = 2;<br/>
+z = ---(x+y)*(x+-y);<br/>
+a = 4;<br/>
+b_c= a*6-4;<br/>
+t=a+1;<br/>
+u=5;<br/>
+r=4-(-4);<br/>
+d=(7-a)+1;<br/>
 
-Output:
-x = 1
-y = 2
-z = 3
-a = 4
-b_c = 20
-t = 5
-u = 5
-r = 8
-d = 4
+Output:<br/>
+x = 1<br/>
+y = 2<br/>
+z = 3<br/>
+a = 4<br/>
+b_c = 20<br/>
+t = 5<br/>
+u = 5<br/>
+r = 8<br/>
+d = 4<br/>
