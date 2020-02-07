@@ -1,7 +1,7 @@
 /*written by Tatiana Azulay*/
 public class Token {
    private int val;
-	private String name;
+   private String name;
    private TokenType tokType; 
 	public enum TokenType{EMPTY,LITERAL, ID, PLUS, MINUS, MULT, EQUALS, L_PAREN, R_PAREN,SEMICOLON}; 
   
