@@ -1,8 +1,8 @@
  *  Compilation:  javac runInterpreter.java
  *  Execution:    java runInterpreter
- *
  *  The interpreter asks the user to input a path to a text file with a program consisting of assignments.
- *  It interprets the assignments and (1) detects lexical and syntax errors; 
+ *  It interprets the assignments and
+ *  (1) detects lexical and syntax errors; 
  *  (2) reports uninitialized variables; 
  *  (3) performs the assignments if there is no error and prints out the values of all the variables after all the assignments are done.
 
