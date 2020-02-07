@@ -1,4 +1,5 @@
  <h1>java-interpreter</h1>
+ 
  *  Compilation:  javac runInterpreter.java
  *  Execution:    java runInterpreter
  *  The interpreter asks the user to input a path to a text file with a program consisting of assignments.
@@ -9,8 +10,8 @@
 
 
 Language description:
--it consists of assignments and each variable is the integer type. 
--only operators that give integer values are included. 
+*it consists of assignments and each variable is the integer type. 
+*only operators that give integer values are included. 
 Program:
 Assignment*
 Assignment:  Identifier = Exp;
