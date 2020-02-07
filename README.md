@@ -11,7 +11,7 @@
 
 Language description:<br/>
 *it consists of assignments and each variable is the integer type.<br/>
-*only operators that give integer values are included.<br/>
+*only operators that give integer values are included: addition, substraction, multiplication.<br/>
 Program:<br/>
 Assignment * <br/>
 Assignment:  Identifier = Exp<br/>
